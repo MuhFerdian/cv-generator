@@ -29,16 +29,17 @@ function App() {
         
         <main className="container mx-auto px-4 py-8" style={{maxWidth: '1200px'}}>
           <div className="text-center mb-12">
-            <h1 className="gradient-title text-4xl md:text-6xl font-bold mb-4" style={{
+            <h1 className="font-title text-4xl md:text-6xl font-bold mb-4" style={{
               fontSize: 'clamp(2rem, 5vw, 4rem)',
               fontWeight: 'bold',
-              marginBottom: '1rem'
+              marginBottom: '1rem',
+              color: '#ffffffff'
             }}>
               CV Generator
             </h1>
             <p className="text-lg text-gray-600 mx-auto" style={{
               maxWidth: '600px',
-              color: '#4b5563',
+              color: '#2c2929ff',
               fontSize: '1.1rem'
             }}>
               Buat CV profesional dengan mudah. Pilih template yang sesuai dan download dalam format PDF.
@@ -62,12 +63,14 @@ function App() {
           </div>
         </main>
         
-        <footer className="text-center py-8 text-gray-500" style={{
+        <footer className="text-center text-sm font-medium text-gray-600 tracking-wide" style={{
           textAlign: 'center',
           padding: '2rem 0',
-          color: '#6b7280'
+          color: '#1b1a1aff'
         }}>
-          <p>&copy; 2024 CV Generator. Dibuat dengan ❤️ menggunakan React & Tailwind CSS.</p>
+          {/* <p>&copy; 2002 - 2025 All rights Reserved.</p> */}
+          {/* <p className="text-sm font-medium text-gray-600 dark:text-gray-400 tracking-wide"></p> */}
+          <p> © 2025 ffrrrr__. All Rights Reserved.</p>
         </footer>
       </div>
     </CVProvider>

@@ -81,7 +81,7 @@ export default function AwardsForm() {
                 value={award.year}
                 onChange={(e) => updateAward(index, 'year', e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="2024"
+                placeholder="2025"
                 min="1950"
                 max={new Date().getFullYear()}
               />

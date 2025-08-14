@@ -52,10 +52,10 @@ export default function Header({ onGeneratePDF, isGeneratingPDF }) {
               <FileText className="h-6 w-6 text-white" style={{width: '1.5rem', height: '1.5rem', color: 'white'}} />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-800" style={{fontSize: '1.25rem', fontWeight: 'bold', color: '#1f2937', margin: 0}}>
+              <h1 className="text-xl font-bold text-gray-800" style={{fontSize: '1.25rem', fontWeight: 'bold', color: '#19192bff', margin: 0}}>
                 CV Generator
               </h1>
-              <p className="text-sm text-gray-600" style={{fontSize: '0.875rem', color: '#4b5563', margin: 0}}>
+              <p className="text-sm text-gray-600" style={{fontSize: '0,500rem', color: '#3a424eff', margin: 0}}>
                 Professional Resume Builder
               </p>
             </div>

@@ -94,7 +94,7 @@ export default function PersonalInfoForm() {
           onChange={(e) => handleChange('title', e.target.value)}
           className="form-modern"
           style={inputStyle}
-          placeholder="contoh: Web Developer"
+          placeholder="contoh: Project Manager"
         />
       </div>
 
@@ -135,7 +135,7 @@ export default function PersonalInfoForm() {
             ...inputStyle,
             borderColor: errors.phone ? '#ef4444' : 'rgba(0, 0, 0, 0.1)'
           }}
-          placeholder="+62 812-3456-7890"
+          placeholder="+62 897-1986-1234"
         />
         {errors.phone && (
           <p style={errorStyle}>
@@ -154,7 +154,7 @@ export default function PersonalInfoForm() {
           onChange={(e) => handleChange('location', e.target.value)}
           className="form-modern"
           style={inputStyle}
-          placeholder="Jakarta, Indonesia"
+          placeholder="Nganjuk, Indonesia"
         />
       </div>
 

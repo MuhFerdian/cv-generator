@@ -74,7 +74,7 @@ export default function ProjectsForm() {
                 value={project.technologies.join(', ')}
                 onChange={(e) => updateTechnologies(index, e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="React, Node.js, MongoDB (comma separated)"
+                placeholder="Laravel, Node.js, MySQL (comma separated)"
               />
             </div>
 

@@ -56,7 +56,7 @@ export default function EducationForm() {
                 value={edu.degree}
                 onChange={(e) => updateEducation(index, 'degree', e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                placeholder="e.g., Bachelor of Computer Science"
+                placeholder="e.g., Bachelor of Informatics Engineering"
               />
             </div>
 
@@ -110,7 +110,7 @@ export default function EducationForm() {
                   value={edu.endYear}
                   onChange={(e) => updateEducation(index, 'endYear', e.target.value)}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="2024"
+                  placeholder="2025"
                   min="1950"
                   max={new Date().getFullYear() + 10}
                 />

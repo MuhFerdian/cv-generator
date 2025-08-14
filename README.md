@@ -1,47 +1,51 @@
-# CV Generator
+# 📄 CV Generator
 
-A modern CV generator built with React and Vite that allows users to create professional CVs with PDF export functionality.
+**CV Generator** adalah aplikasi web untuk membuat CV profesional secara cepat dan mudah. Pengguna dapat mengisi data pribadi, pengalaman kerja, pendidikan, proyek, sertifikasi, dan keterampilan, kemudian mengunduh CV dalam format **PDF** dengan tampilan template yang menarik dan ATS-friendly.
 
-![CV Generator Preview](public/capture.png)
+## 🚀 Fitur Utama
+- **Formulir Dinamis** untuk mengisi data personal, pengalaman kerja, pendidikan, proyek, penghargaan, dan keterampilan.
+- **Preview Real-Time**: Perubahan pada formulir langsung terlihat pada pratinjau CV.
+- **Template ATS-Friendly** agar mudah dibaca oleh sistem rekrutmen otomatis.
+- **Export PDF** dengan satu klik.
+- **Validasi Form** untuk memastikan data yang dimasukkan benar.
+- **Desain Responsif** dan modern, dapat diakses dari berbagai perangkat.
 
-## Installation
+## 🖼 Tampilan Aplikasi
+![CV Generator](public/CV_Generator.png)
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd cv-generator
+## 📂 Struktur Proyek
+```
+cv-generator/
+├── public/
+│   ├── CV_Generator.png       
+│   ├── CV.svg
+├── src/
+│   ├── assets/                
+│   ├── components/
+│   │   ├── forms/             
+│   │   │   ├── PersonalInfoForm.jsx
+│   │   │   ├── EducationForm.jsx
+│   │   │   ├── ExperienceForm.jsx
+│   │   │   ├── SkillsForm.jsx
+│   │   │   ├── AwardsForm.jsx
+│   │   │   ├── ProjectsForm.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+├── package.json
+├── README.md
 ```
 
-2. Install dependencies:
-```bash
-npm install
-```
+## 🛠 Teknologi yang Digunakan
+- **Frontend**: React + Vite
+- **Styling**: CSS Modern (Custom style + Flexbox/Grid)
+- **PDF Export**: jsPDF / html2canvas
+- **Validation**: Custom Validation
 
-3. Start the development server:
-```bash
-npm run dev
-```
+## 📌 Cara Menggunakan
+1. Isi semua data pada formulir mulai dari **Informasi Personal** hingga **Sertifikasi & Keterampilan**.
+2. Lihat hasil di **Preview CV** secara real-time di sebelah kanan.
+3. Pilih template jika tersedia.
+4. Klik tombol **Download PDF** untuk menyimpan CV.
 
-4. Open your browser and navigate to `http://localhost:5173`
-
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-## Features
-
-- Interactive CV builder
-- PDF export functionality
-- Modern React UI with Tailwind CSS
-- Responsive design
-
-## Tech Stack
-
-- React 19
-- Vite
-- Tailwind CSS
-- html2pdf.js for PDF generation
-- Lucide React icons
+## 📄 Lisensi
+Proyek ini menggunakan lisensi **MIT**. Silakan gunakan dan kembangkan sesuai kebutuhan.
